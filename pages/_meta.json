@@ -2,14 +2,29 @@
   "index": "Introduction",
   "another": "Another Page",
   "advanced": "Advanced (A Folder)",
+  "contact": {
+    "title": "Blog ↗",
+    "type": "page",
+    "href": "https://blog.genki.site/",
+    "newWindow": true
+  },
   "about": {
-    "title": "About",
-    "type": "page"
+    "title": "About ↗",
+    "type": "page",
+    "href": "https://blog.genki.site/about/",
+    "newWindow": true
   },
   "contact": {
     "title": "Contact ↗",
     "type": "page",
-    "href": "https://twitter.com/shuding_",
+    "href": "https://blog.genki.site/contact/",
     "newWindow": true
+  },
+    "contact": {
+    "title": "Pomelo ↗",
+    "type": "page",
+    "href": "https://pomelo.io/grants/subdeeplyla",
+    "newWindow": true
+  }
   }
 }
