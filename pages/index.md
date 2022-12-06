@@ -1,53 +1,14 @@
 &nbsp;
 <p align="center">
-  <a href="https://blog.genki.site/#gh-light-mode-only" target="_blank">
-    <img src="https://user-images.githubusercontent.com/118148262/205803022-da8f2c77-4f9d-4aa7-85b5-f7de1b03887e.png" alt="Genki" width="200px">
-  </a>
-  <a href="https://blog.genki.site/#gh-dark-mode-only" target="_blank">
     <img src="https://user-images.githubusercontent.com/118148262/205803027-fbf88284-7724-488f-bbb7-7a1aefa15333.png" alt="Genki" width="200px">
-  </a>
 </p>
 &nbsp;
 
-<p align="center">
-    <a href="https://blog.genki.site" target="_blank">Blog</a> •
-    <a href="https://docs.genki.site" target="_blank">Docs</a> •
-        <a href="https://pomelo.io/grants/subdeeplyla" target="_blank">Pomelo</a> •
-    <a href="https://twitter.com/mediagenki" target="_blank">Twitter</a>
-    <br /><br />
-    <a href="https://ghost.org/">
-        <img src="https://img.shields.io/badge/downloads-3M-brightgreen.svg" alt="Downloads" />
-    </a>
-    <a href="https://github.com/TryGhost/Ghost/releases/">
-        <img src="https://img.shields.io/github/release/TryGhost/Ghost.svg" alt="Latest release" />
-    </a>
-    <a href="https://github.com/TryGhost/Ghost/actions">
-        <img src="https://github.com/TryGhost/Ghost/workflows/Test%20Suite/badge.svg?branch=main" alt="Build status" />
-    </a>
-    <a href="https://github.com/TryGhost/Ghost/contributors/">
-        <img src="https://img.shields.io/github/contributors/TryGhost/Ghost.svg" alt="Contributors" />
-    </a>
-</p>
 
 &nbsp;
-<a href="https://ghost.org/"><img src="https://user-images.githubusercontent.com/353959/169805900-66be5b89-0859-4816-8da9-528ed7534704.png" alt="Fiercely independent, professional publishing. Ghost is the most popular open source, headless Node.js CMS which already works with all the tools you know and love." /></a>
+<img src="https://user-images.githubusercontent.com/353959/169805900-66be5b89-0859-4816-8da9-528ed7534704.png" alt="Fiercely independent, professional publishing. Ghost is the most popular open source, headless Node.js CMS which already works with all the tools you know and love." />
 &nbsp;
 
-<p align="center">
-<a href="https://blog.genki.site/#gh-light-mode-only" target="_blank"><img src="https://user-images.githubusercontent.com/118148262/205803022-da8f2c77-4f9d-4aa7-85b5-f7de1b03887e.png" alt="Genki" width="420px" /></a>
-<a href="https://blog.genki.site/#gh-dark-mode-only" target="_blank"><img src="https://user-images.githubusercontent.com/118148262/205803027-fbf88284-7724-488f-bbb7-7a1aefa15333.png" alt="Genki" width="420px" /></a>
-</p>
-
-<p align="center">
-    <a href="https://eosnetwork.com/#gh-light-mode-only" target="_blank"><img src="https://user-images.githubusercontent.com/118148262/205805724-c8c04258-797e-4d4a-b96c-9e665dffcfed.png" alt="EOS" width="50px" /></a>&nbsp;
-    <a href="https://eosnetwork.com/#gh-dark-mode-only" target="_blank"><img src="https://user-images.githubusercontent.com/118148262/205805199-0d4d5070-0825-4fda-a50c-e4482690be87.png" alt="EOS" width="50px" /></a>&nbsp;
-    <a href="https://eosnetwork.com/#gh-light-mode-only" target="_blank"><img src="https://user-images.githubusercontent.com/118148262/205806336-acb3a3b8-cb96-4833-af95-bba8223ea3b8.png" alt="WAX" width="78px" /></a>&nbsp;
-    <a href="https://eosnetwork.com/#gh-dark-mode-only" target="_blank"><img src="https://user-images.githubusercontent.com/118148262/205806338-d95c2ab9-fdd0-4ec3-a8d1-3da144ce3ba5.png" alt="WAX" width="78px" /></a>&nbsp;
-    <a href="https://eosnetwork.com/#gh-light-mode-only" target="_blank"><img src="https://user-images.githubusercontent.com/118148262/205806645-f3cf8384-23ce-4a0d-9273-ce86435bf2a9.png" alt="Telos" width="78px" /></a>&nbsp;
-    <a href="https://eosnetwork.com/#gh-dark-mode-only" target="_blank"><img src="https://user-images.githubusercontent.com/118148262/205806645-f3cf8384-23ce-4a0d-9273-ce86435bf2a9.png" alt="Telos" width="78px" /></a>&nbsp;
-    <a href="https://eosnetwork.com/#gh-light-mode-only" target="_blank"><img src="https://user-images.githubusercontent.com/118148262/205807086-ceed6e2f-5961-4437-80e3-a5cb9b676977.png" alt="UX Network" width="78px" /></a>&nbsp;
-    <a href="https://eosnetwork.com/#gh-dark-mode-only" target="_blank"><img src="https://user-images.githubusercontent.com/118148262/205807086-ceed6e2f-5961-4437-80e3-a5cb9b676977.png" alt="UX Network" width="78px" /></a>&nbsp;
-</p>
 
 &nbsp;
 **[Genki](https://blog.genki.site/)** features [EOS](https://eosnetwork.com/), [Telos](https://www.telos.net/), [Wax](https://www.wax.io/) and [UX Network](https://uxnetwork.io/) in one place. If you want to learn more, our resources are full of guides, articles, news and up-to-date information. **Genki** is the place to go to learn all about Antelope based chains, [EOS](https://eosnetwork.com/), [Telos](https://www.telos.net/), [Wax](https://www.wax.io/) and [UX Network](https://uxnetwork.io/) in one place.
