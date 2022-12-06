@@ -2,26 +2,8 @@ import React from 'react'
 import Image from 'next/image'
 import { DocsThemeConfig } from 'nextra-theme-docs'
 
-const lightTheme = {
-  logo: {
-    src: '/img/logo-dark.svg',
-    alt: 'Genki light logo'
-  }
-  // other theme configuration options
-},
-const darkTheme = {
-  logo: {
-    src: '/img/logo-light.svg',
-    alt: 'Genki ark logo'
-  }
-  // other theme configuration options
-},
 const config: DocsThemeConfig = {
-  if (theme === 'light') {
-    logo: lightTheme.logo,
-  } else {
-    logo: darkTheme.logo,
-  },
+  logo: <Image width={120} height={36}src="/img/logo-light.svg" alt="Genki Logo"/>,
   project: {
     link: 'https://github.com/genkimedia/',
   },
