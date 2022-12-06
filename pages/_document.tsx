@@ -1,6 +1,6 @@
 import Document, { Head, Html, Main, NextScript, DocumentContext } from "next/document";
 
-import Favicon from '../components/Favicon';
+import Favicon from '/components/favicon';
 
 class MyDocument extends Document {
   static async getInitialProps(ctx: DocumentContext): Promise<Record<string, unknown> & {html: string}> {
