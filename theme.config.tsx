@@ -1,8 +1,13 @@
 import React from 'react'
+import Image from 'next/image'
 import { DocsThemeConfig } from 'nextra-theme-docs'
 
 const config: DocsThemeConfig = {
-  logo: <span>Genki</span>,
+  logo: <Image
+      src="/image/logo-light.svg"
+      alt="Picture of the author"
+      width={200}
+    />,
   project: {
     link: 'https://github.com/genkimedia/',
   },
