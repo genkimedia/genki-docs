@@ -1,7 +1,6 @@
 &nbsp;
-<p align="center">
     <img src="https://user-images.githubusercontent.com/118148262/205803027-fbf88284-7724-488f-bbb7-7a1aefa15333.png" alt="Genki" width="200px">
-</p>
+
 &nbsp;
 
 
