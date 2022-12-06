@@ -2,13 +2,13 @@
   "index": "Introduction",
   "install": "How to install",
   "advanced": "Advanced (A Folder)",
-  "about": {
+  {
     "title": "Blog ↗",
     "type": "page",
     "href": "https://blog.genki.site/",
     "newWindow": true
   },
-    "contact": {
+  {
     "title": "Pomelo ↗",
     "type": "page",
     "href": "https://pomelo.io/grants/subdeeplyla",
