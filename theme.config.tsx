@@ -4,8 +4,8 @@ import { DocsThemeConfig } from 'nextra-theme-docs'
 
 const config: DocsThemeConfig = {
   logo: <Image
-      src="/image/logo-light.svg"
-      alt="Picture of the author"
+      src="./src/image/logo-light.svg"
+      alt="PGenki Logo"
       width={200}
     />,
   project: {
