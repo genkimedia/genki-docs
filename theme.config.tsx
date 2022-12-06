@@ -6,10 +6,10 @@ const config: DocsThemeConfig = {
   project: {
     link: 'https://github.com/genkimedia/',
   },
-  chat: {
-    link: 'https://discord.com',
+  twitter: {
+    link: 'https://twitter.com/mediagenki',
   },
-  docsRepositoryBase: 'https://github.com/genkimedia/genki-docs',
+  docsRepositoryBase: 'https://github.com/genkimedia/genki-docs/tree/main/',
   footer: {
     text: 'Genki © 2022',
   },
