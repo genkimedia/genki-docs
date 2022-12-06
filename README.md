@@ -14,6 +14,7 @@
 </p>
 
 # Genki Docs
+Genki user Nextra to publish Documentation inline
 
 This is a template for creating documentation with [Nextra](https://nextra.site).
 
