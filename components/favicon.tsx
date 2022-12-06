@@ -1,4 +1,4 @@
-// /compoponents/favicon.tsx
+// /compoponents/Favicon.tsx
 const Favicon = (): JSX.Element => {
     return (
         <>
