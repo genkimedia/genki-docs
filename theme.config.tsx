@@ -4,7 +4,7 @@ import { DocsThemeConfig } from 'nextra-theme-docs'
 
 const config: DocsThemeConfig = {
   logo: <Image
-      src="./src/image/logo-light.svg"
+      src="/imag/logo-light.svg"
       alt="Genki Logo"
       width={200}
     />,
