@@ -1,21 +1,10 @@
-&nbsp;
-    <img src="https://user-images.githubusercontent.com/118148262/205803027-fbf88284-7724-488f-bbb7-7a1aefa15333.png" alt="Genki" width="200px">
+# Introduction
 
-&nbsp;
-
-
-&nbsp;
-<img src="https://user-images.githubusercontent.com/353959/169805900-66be5b89-0859-4816-8da9-528ed7534704.png" alt="Fiercely independent, professional publishing. Ghost is the most popular open source, headless Node.js CMS which already works with all the tools you know and love." />
-&nbsp;
-
-
-&nbsp;
 **[Genki](https://blog.genki.site/)** features [EOS](https://eosnetwork.com/), [Telos](https://www.telos.net/), [Wax](https://www.wax.io/) and [UX Network](https://uxnetwork.io/) in one place. If you want to learn more, our resources are full of guides, articles, news and up-to-date information. **Genki** is the place to go to learn all about Antelope based chains, [EOS](https://eosnetwork.com/), [Telos](https://www.telos.net/), [Wax](https://www.wax.io/) and [UX Network](https://uxnetwork.io/) in one place.
 
 **[Genki](https://blog.genki.site/)** uses [Ghost](https://ghost.org/) open source technology, the easiest way to get a production instance deployed. It takes about 2 minutes to launch a new site with worldwide CDN, backups, security and maintenance.
 
 [Ghost](https://ghost.org/) is a powerful app for new-media creators to publish, share, and grow a business around their content. It comes with modern tools to build a website, publish content, send newsletters & more.
-&nbsp;
 
 # Quickstart install
 
