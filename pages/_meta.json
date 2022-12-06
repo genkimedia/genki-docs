@@ -7,19 +7,19 @@
     "type": "page",
     "href": "https://blog.genki.site/",
     "newWindow": true
-  },
+  }
   "about": {
     "title": "About ↗",
     "type": "page",
     "href": "https://blog.genki.site/about/",
     "newWindow": true
-  },
+  }
   "contact": {
     "title": "Contact ↗",
     "type": "page",
     "href": "https://blog.genki.site/contact/",
     "newWindow": true
-  },
+  }
     "contact": {
     "title": "Pomelo ↗",
     "type": "page",
