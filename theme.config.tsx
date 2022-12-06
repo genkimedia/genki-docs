@@ -3,7 +3,7 @@ import Image from 'next/image'
 import { DocsThemeConfig } from 'nextra-theme-docs'
 
 const config: DocsThemeConfig = {
-  logo: <Image width={155} height={46}src="/img/Logo.svg" alt="Genki Logo"/>,
+  logo: <Image width={100} height={30}src="/img/Logo.svg" alt="Genki Logo"/>,
   project: {
     link: 'https://github.com/genkimedia/',
   },
