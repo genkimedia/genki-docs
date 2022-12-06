@@ -3,9 +3,15 @@
   "install": "How to install",
   "advanced": "Advanced (A Folder)",
     "about": {
-    "title": "About",
+    "title": "Pomelo ↗",
     "type": "page",
-    "href": "https://twitter.com/shuding_",
+    "href": "https://pomelo.io/grants/subdeeplyla",
+    "newWindow": true
+  },
+   "about": {
+    "title": "blog ↗",
+    "type": "page",
+    "href": "https://blog.genki.site/",
     "newWindow": true
   }
 }
