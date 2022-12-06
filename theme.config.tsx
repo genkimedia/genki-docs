@@ -1,26 +1,9 @@
 import React from 'react'
 import Image from 'next/image'
 import { DocsThemeConfig } from 'nextra-theme-docs'
-import useTheme from 'components/logo.tsx';
-import Logo from 'components/logo.tsx';
-
-
-
-function MyApp({ Component, pageProps }) {
-  const { theme, toggleTheme } = useTheme();
-
-  return (
-    <div>
-      <button onClick={toggleTheme}>Toggle Theme</button>
-      <Component {...pageProps} />
-    </div>
-  );
-}
 
 const config: DocsThemeConfig = {
-  logo: <div>
-    <Logo />
-  </div>,
+  logo: <Image width={120} height={36}src="/img/Logo.svg" alt="Genki Logo"/>,
   project: {
     link: 'https://github.com/genkimedia/',
   },
