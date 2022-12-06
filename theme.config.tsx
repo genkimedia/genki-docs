@@ -6,16 +6,16 @@ const lightTheme = {
   logo: {
     src: '/img/logo-dark.svg',
     alt: 'Genki light logo'
-  },
+  }
   // other theme configuration options
-}
+},
 const darkTheme = {
   logo: {
     src: '/img/logo-light.svg',
     alt: 'Genki ark logo'
-  },
+  }
   // other theme configuration options
-}
+},
 const config: DocsThemeConfig = {
   if (theme === 'light') {
     logo: lightTheme.logo,
