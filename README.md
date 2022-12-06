@@ -1,4 +1,19 @@
-# Genki Docs 
+<p align="left">
+  <a href="https://blog.genki.site/#gh-light-mode-only" target="_blank">
+    <img src="https://user-images.githubusercontent.com/118148262/205826912-7338e0ba-3ef0-47ff-af15-16e2330c5f7f.png" alt="Genki" width="200px">
+  </a>
+  <a href="https://blog.genki.site/#gh-dark-mode-only" target="_blank">
+    <img src="https://user-images.githubusercontent.com/118148262/205826909-618b80d8-c6ad-41cc-99b9-729ba5698a4c.png" alt="Genki" width="200px">
+  </a>
+</p>
+<p align="left">
+    <a href="https://blog.genki.site" target="_blank">Blog</a> •
+    <a href="https://docs.genki.site" target="_blank">Docs</a> •
+        <a href="https://pomelo.io/grants/subdeeplyla" target="_blank">Pomelo</a> •
+    <a href="https://twitter.com/mediagenki" target="_blank">Twitter</a>
+</p>
+
+# Genki Docs
 
 This is a template for creating documentation with [Nextra](https://nextra.site).
 
