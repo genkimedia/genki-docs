@@ -1,17 +1,23 @@
 {
   "index": "Introduction",
-  "install": "How to install",
-  "advanced": "Advanced (A Folder)",
-    "about": {
-    "title": "Pomelo ↗",
+  "quick-start": "Quick Start",
+  "about": {
+    "title": "About",
     "type": "page",
-    "href": "https://pomelo.io/grants/subdeeplyla",
-    "newWindow": true
+    "theme": {
+      "typesetting": "article"
+    }
   },
-   "contact": {
-    "title": "blog ↗",
+  "blog": {
+    "title": "Blog",
     "type": "page",
     "href": "https://blog.genki.site/",
+    "newWindow": true
+  },
+  "pomelo": {
+    "title": "Pomelo ↗",
+    "type": "page",
+    "href": "https://pomelo.io/grants/subdeeplyla?ref=docs-genki",
     "newWindow": true
   }
 }

@@ -1,43 +1,54 @@
-
+---
+title: 'Genki Docs – Introduction'
+---
 # Introduction
 
 ## Genki Introduction
 
 **[Genki](https://blog.genki.site/)** features [EOS](https://eosnetwork.com/), [Telos](https://www.telos.net/), [Wax](https://www.wax.io/) and [UX Network](https://uxnetwork.io/) in one place. If you want to learn more, our resources are full of guides, articles, news and up-to-date information. **Genki** is the place to go to learn all about Antelope based chains, [EOS](https://eosnetwork.com/), [Telos](https://www.telos.net/), [Wax](https://www.wax.io/) and [UX Network](https://uxnetwork.io/) in one place.
 
-**[Genki](https://blog.genki.site/)** uses [Ghost](https://ghost.org/) open source technology, the easiest way to get a production instance deployed. It takes about 2 minutes to launch a new site with worldwide CDN, backups, security and maintenance.
+**[Genki](https://blog.genki.site/)** uses [Ghost](https://ghost.org?ref=docs-genki) open source technology, the easiest way to get a production instance deployed. It takes about 2 minutes to launch a new site with worldwide CDN, backups, security and maintenance.
 
-[Ghost](https://ghost.org/) is a powerful app for new-media creators to publish, share, and grow a business around their content. It comes with modern tools to build a website, publish content, send newsletters & more.
+[Ghost](https://ghost.org/?ref=docs-genki) is a powerful app for new-media creators to publish, share, and grow a business around their content. It comes with modern tools to build a website, publish content, send newsletters & more.
 
-## Quickstart install
+## Ghost Introduction
 
-If you want to run your own instance of Ghost, in most cases the best way is to use our **CLI tool**
+**[Ghost](https://ghost.org?ref=docs-genki)** is an open source, professional publishing platform built on a modern Node.js technology stack — designed for teams who need power, flexibility and performance.
 
-```
-npm install ghost-cli -g
-```
+Hitting the right balance of needs has led Ghost to be used in production by organisations including Apple, Sky News, DuckDuckGo, Mozilla, OpenAI, Square, CloudFlare, Tinder, the Bitcoin Foundation and [many more](https://ghost.org/explore/).
 
-Then, if installing locally add the `local` flag to get up and running in under a minute - [Local install docs](https://ghost.org/docs/install/local/)
+## Features
 
-```
-ghost install local
-```
+Ghost comes with powerful features built directly into the core software which can be customised and configured based on the needs of each individual site.
 
-or on a server run the full install, including automatic SSL setup using LetsEncrypt - [Production install docs](https://ghost.org/docs/install/ubuntu/)
+### Developer API
 
-```
-ghost install
-```
+At its core Ghost is a self-consuming, `RESTful` `JSON` API with decoupled admin client and front-end. We provide lots of tooling to get a site running as quickly as possible, but at the end of the day it’s Just `JSON` ™️, so if you want to use Ghost completely headless and write your own frontend or backend… you can!
 
-Check out **[Ghost official documentation](https://ghost.org/docs/)** for more information about [recommended hosting stack](https://ghost.org/docs/hosting/) & properly [upgrading Ghost](https://ghost.org/docs/update/), plus everything you need to develop your own Ghost [themes](https://ghost.org/docs/themes/) or work with [API](https://ghost.org/docs/content-api/).
+### customised editor
 
-## Contributors & advanced developers
+Ghost has the rich editor which every writer wants, but under the hood it delivers far more power than you would expect. All content is stored in a standardised `JSON-based` document storage format called MobileDoc, which includes support for extensible rich media objects called Cards.
 
-For anyone wishing to contribute to Ghost or to hack/customize core files we recommend following our full development setup guides: [Contributor guide](https://ghost.org/docs/contributing/) • [Developer setup](https://ghost.org/docs/install/source/)
+### customised site structures
 
-## Getting help
+Routing in Ghost is completely configurable based on your needs. Out of the box Ghost comes with a standard reverse chronological feed of posts with clean permalinks and basic pages, but that’s easy to change.
 
-If you have questions please refer to the [Ghost forum](https://forum.ghost.org/) - replies are generally very quick.
+### Roles & permissions
+
+Set up your site with sensible user roles and permissions built-in from the start.
+
+- Contributors: Can log in and write posts, but cannot publish.
+- Authors: Can create and publish new posts and tags.
+- Editors: Can invite, manage and edit authors and contributors.
+- Administrators: Have full permissions to edit all data and settings.
+- Owner: An admin who cannot be deleted + has access to billing details.
+
+### Custom themes
+
+Ghost ships with a simple `Handlebars.js` front-end theme layer which is very straightforward to work with and surprisingly powerful. Many people stick with the default theme ([live demo](https://demo.ghost.io/) / [source code](https://github.com/tryghost/casper)), which provides a clean magazine design - but this can be modified or entirely replaced.
+
+### integrations
+Because Ghost is completely open source, built as a `JSON` API, has webhooks, and gives you full control over the front-end: It essentially integrates with absolutely everything.
 
 ## Copyright & license
 
