@@ -1,12 +1,39 @@
 {
-  "index": "Introduction",
-  "quick-start": "Quick Start",
+  "index": "Getting Started",
+  "introduction": "Introduction",
+  "quick-start": "Quickstart install",
+  "-- Installation --": {
+    "type": "separator",
+    "title": "Installation"
+  },
+  "locally": "Locally",
+  "ubuntu": "Ubuntu",
+  "docker": "Docker",
+  "-- Themes --": {
+    "type": "separator",
+    "title": "Themes"
+  },
+  "docs-theme": "Docs Theme",
+  "blog-theme": "Blog Theme",
+  "custom-theme": "Custom Theme",
+  "-- About --": {
+    "type": "separator",
+    "title": "More"
+  },
+  "ghost-cli": "Ghost CLI",
+  "Next.js link": {
+    "title": "Next.js Docs ↗",
+    "href": "https://nextjs.org",
+    "newWindow": true
+  },
+  "docs": {
+    "title": "Documentation",
+    "type": "page",
+    "display": "hidden"
+  },
   "about": {
     "title": "About",
-    "type": "page",
-    "theme": {
-      "typesetting": "article"
-    }
+    "type": "page"
   },
   "blog": {
     "title": "Blog",

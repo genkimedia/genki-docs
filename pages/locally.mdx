@@ -1,0 +1,49 @@
+---
+title: 'Install Ghost locally'
+---
+
+# Install Ghost locally
+
+## Prerequisites
+- running MacOS, Windows or Linux
+- Supported version of [Node.js](https://nodejs.org/en/)
+- [yarn](https://classic.yarnpkg.com/en/docs/install#alternatives-tab) or [npm](https://docs.npmjs.com/getting-started) to manage packages
+- Empty working directory
+
+## Install Ghost-CLI
+
+The npm module can be installed with `npm` or `yarn` on a local machine.
+
+```js filename="npm ghost-cli"
+npm install ghost-cli@latest -g
+```
+
+## Create a new directory and locate
+
+Create a new directory and `cd` to locate the folder
+
+```js filename="create directory"
+$ mkdir folder
+$ cd folder
+~/folder$
+```
+
+## Install Ghost
+
+In your terminal, `cd` into the empty directory `~/folder$` and run the install command:
+
+```js filename="ghost install"
+ghost install local
+```
+
+The site now run on `http://localhost:2368` & use `http://localhost:2368/ghost` to access the Ghost Admin.
+&nbsp;
+
+## Ghost Commands
+
+- `ghost start` starts Ghost
+- `ghost stop` stop Ghost
+- `ghost log` log views
+- `ghost ls` locate directories or all active Ghost blogs
+
+Run `ghost help` for a list of available commands, or explore the full [Ghost-CLI documentation](/ghost-cli).
