@@ -4,8 +4,136 @@ title: 'Install Ghost with Docker'
 
 # Install Ghost with Docker
 
-## Resources
-- Installation steps
-- Ghost Docker Image on GitHub
-- Reporting issues
-- Play With Docker direct link
+## Quick reference
+
+### Maintained by:
+[Docker Community](https://github.com/docker-library/ghost)
+
+### Where you can find help:
+[Docker Community Slack](https://dockr.ly/comm-slack), [Server Fault](https://serverfault.com/help/on-topic) or [Stack Overflow](https://stackoverflow.com/help/on-topic)
+
+### Report or find issues:
+https://github.com/docker-library/ghost/issues
+
+### Supported architectures: [(more info)](https://github.com/docker-library/official-images#architectures-other-than-amd64)
+
+[`amd64`](https://hub.docker.com/r/amd64/ghost/), [`arm32v6`](https://hub.docker.com/r/arm32v6/ghost/), [`arm32v7`](https://hub.docker.com/r/arm32v7/ghost/), [`arm64v8`](https://hub.docker.com/r/arm64v8/ghost/), [`ppc64le`](https://hub.docker.com/r/ppc64le/ghost/), [`s390x`](https://hub.docker.com/r/s390x/ghost/)
+
+### Published image details:
+
+[repo-info -- >`repos/ghost/` directory](https://github.com/docker-library/repo-info/tree/master/repos/ghost)
+
+### Image updates:
+
+[official-images -- >`library/ghost` label](https://github.com/docker-library/official-images/issues?q=label%3Alibrary%2Fghost)
+[official-images -- >`library/ghost` file](https://github.com/docker-library/official-images/blob/master/library/ghost)
+
+## Ghost Introduction
+![Ghost Logo](https://user-images.githubusercontent.com/94427218/206876794-d6c7c26d-6099-428c-9def-1c80eac13059.png)
+
+**[Ghost](https://ghost.org?ref=docs-genki)** is an open source, professional publishing platform built on a modern Node.js technology stack — designed for teams who need power, flexibility and performance.
+
+**Ghost** is a free and open source blogging platform written in JavaScript and distributed under the MIT License, designed to simplify the process of online publishing for individual bloggers as well as online publications.
+
+## How to use Ghost Docker image
+
+The following command will download the official Ghost Docker image
+
+```js filename="docker ghost image"
+docker pull ghost:latest
+```
+
+# Run Docker Image
+
+Start the Ghost development instance listening on the default Ghost port of `2368`.
+
+```js filename="Run Ghost Development"
+$ docker run -d --name some-ghost -e NODE_ENV=development ghost
+```
+
+# Using Custom Port
+
+If you want to access the instance from the host without the IP, you can use standard port mappings:
+
+```js filename="Standard  Ghost Port Mapping"
+$ docker run -d --name some-ghost -e NODE_ENV=development -e url=http://your.url -p 3001:2368 ghost
+```
+
+You will be able to access your new site at `http://your.url` and `http://your.url/ghost` to access Ghost Admin or `http://host-ip:3001` and `http://host-ip:3001/ghost`.
+
+## Docker Volume
+
+You can also use a named docker volume instead of a direct host path to /var/lib/ghost/content:
+
+```js filename="Docker Custom Volume"
+$ docker run -d --name some-ghost -e NODE_ENV=development -v some-ghost-data:/var/lib/ghost/content ghost
+
+```
+
+## Configuration
+
+Ghost configuration parameters (such as url) can be specified via `environment variables`. See the [Ghost documentation](https://ghost.org/docs/concepts/config/#running-ghost-with-config-env-variables) for details
+
+```js filename="Docker Config env variables"
+$ docker run -d --name some-ghost -e NODE_ENV=development -e url=http://example.com ghost
+```
+
+## Production mode
+
+The following example demonstrates some of the necessary configuration for running with MySQL. For more detail, see Ghost's [Configuration options](https://ghost.org/docs/config/#configuration-options) documentation.
+
+Example `stack.yml` for ghost `docker-compose`:
+
+```js filename="Docker Compose"
+version: '3.1'
+
+services:
+
+  ghost:
+    image: ghost:4-alpine
+    restart: always
+    ports:
+      - 8080:2368
+    environment:
+# see https://ghost.org/docs/config/#configuration-options
+      database__client: mysql
+      database__connection__host: db
+      database__connection__user: root
+      database__connection__password: example
+      database__connection__database: ghost
+# this url value is just an example, and is likely wrong for your environment!
+      url: http://localhost:8080
+# contrary to the default mentioned in the linked documentation, this image defaults to NODE_ENV=production (so development mode needs to be explicitly specified if desired)
+      #NODE_ENV: development
+
+  db:
+    image: mysql:8.0
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: example
+ ```
+
+Run docker stack deploy `stack.yml` or `docker-compose`, wait for it to initialize completely, and visit `http://swarm-ip:8080`, `http://localhost:8080`, or `http://host-ip:8080`.
+
+### Image Variants
+
+`Ghost` docker images come in many flavors, each designed for a specific use case.
+
+#### Ghost images ver variant
+
+```js filename="img variant"
+docker pull ghost:`<version>`
+```
+
+#### Ghost Alphine Image
+
+```js filename="ghost alphine image"
+docker pull ghost:`<version>`-alpine
+```
+
+This image is based on the popular [Alpine Linux project](https://alpinelinux.org/), available in the [`alpine` official image](https://hub.docker.com/_/alpine). Alpine Linux is much smaller than most distribution base images (~5MB), and thus leads to much slimmer images in general.
+To minimize image size, it's uncommon for additional related tools (such as git or bash) to be included in Alpine-based images. Using this image as a base, add the things you need in your own Dockerfile (see the [`alpine` image description](https://hub.docker.com/_/alpine/) for examples of how to install packages if you are unfamiliar).
+
+## Copyright & license
+
+Copyright (c) 2022 Genki - Released under the [MIT license](https://github.com/genkimedia/ghost/blob/main/LICENSE). Ghost and the Ghost Logo are trademarks of Ghost Foundation Ltd. Please see [trademark policy](https://ghost.org/trademark/) for info on acceptable usage.
