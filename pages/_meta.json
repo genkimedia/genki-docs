@@ -9,13 +9,6 @@
   "locally": "Locally",
   "ubuntu": "Ubuntu",
   "docker": "Docker",
-  "-- Themes --": {
-    "type": "separator",
-    "title": "Themes"
-  },
-  "docs-theme": "Docs Theme",
-  "blog-theme": "Blog Theme",
-  "custom-theme": "Custom Theme",
   "-- About --": {
     "type": "separator",
     "title": "More"

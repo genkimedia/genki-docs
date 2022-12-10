@@ -3,3 +3,156 @@ title: 'Ghost CLI'
 ---
 
 # Ghost CLI
+
+## Ghost CLI Introduction
+
+A rool to help you get Ghost installed up to date and configured.
+
+**Ghost-CLI** is to makes it possible to install or update Ghost with a single command. In addition, it performs useful operations to assist with maintaining your environment, such as:
+
+- Checking for common environment problems
+- Creating `logical folder structure`
+- Providing for production or development installs
+- Allowing for `upgrades and rollbacks`
+- Handling user `management and permissions`
+- Configuring **Ghost**
+- Configuring `NGINX`
+- Setting up `MySQL`
+- Configuring `systemd`
+- Accessing `Ghost log` files
+- Managing existing Ghost installs
+
+## Install & Update
+
+```js
+install -g ghost-cli@latest
+```
+
+## Options
+
+There are some global commands you may find useful using `ghost-cli`
+
+```js
+# Output usage information for Ghost-CLI
+ghost --help, ghost -h, ghost help, ghost [command] --help
+
+# Enables the verbose logging output for debugging
+ghost --verbose, ghost -V
+
+# Print your CLI version and Ghost version
+ghost --version, ghost -v, ghost version
+
+# Run the command in a different directory
+ghost --dir path/to/directory
+
+# Runs command without asking for any input
+ghost --no-prompt
+
+# Runs command without using colours
+ghost --no-color
+```
+
+## Commands
+
+Below are the available commands in Ghost-CLI. You can always run `ghost --help` or `ghost [command] --help` to get more detail, or inline help for available options.
+
+### Ghost config
+
+`ghost config` accepts two optional arguments: `key` and `value`. Here are the three different combinations and what happens on each of them:
+
+```js
+# Create a new config file for the particular env
+ghost config
+
+# Find and return the value in the config for the key passed
+ghost config [key]
+
+# Set a key and a value in the config file
+ghost config [key] [value]
+
+# Set the url for your site
+ghost config url https://mysite.com
+```
+
+`ghost config` command only affects the configuration files. In order for your new config to be used, run `ghost restart`.
+
+### Options
+
+If you’re using `ghost config` to generate a configuration file, you can supply multiple key-value pairs in the form of options to avoid being prompted for that value.
+
+All of these options can also be passed to `ghost install` and `ghost setup`, as these commands call `ghost config`.
+Run `ghost config --help` for more detailed information.
+
+```js filename="Application options"
+# URL of the site including protocol
+--url https://mysite.com
+
+# Admin URL of the site
+--admin-url https://admin.mysite.com
+
+# Port that Ghost should listen on
+--port 2368
+
+# IP to listen on
+--ip 127.0.0.1
+
+# Transport to send log output to
+--log ["file","stdout"]
+```
+
+```js filename="Database options"
+# Type of database to use (SQLite3 or MySQL)
+--db
+
+# For SQLite3 we just need a path to database file
+--dbpath content/data/ghost_dev.db
+
+# For MySQL we need full credentials:
+--dbhost localhost
+
+# Database user name
+--dbuser ghost
+
+# Database password
+--dbpass ****
+
+# Database name
+--dbname ghost_dev
+```
+
+```js filename="Mail options"
+# Mail transport, E.g SMTP, Sendmail or Direct
+--mail SMTP
+
+# Mail service (used with SMTP transport), E.g. Mailgun, Sendgrid, Gmail, SES...
+--mailservice Mailgun
+
+# Mail auth user (used with SMTP transport)
+--mailuser postmaster@something.mailgun.org
+
+# Mail auth pass (used with SMTP transport)
+--mailpass ****
+
+# Mail host (used with SMTP transport)
+--mailhost smtp.eu.mailgun.org
+
+# Mail port (used with SMTP transport)
+--mailport 587
+```
+
+```js filename="Service options"
+# Process manager to run with (local, systemd)
+--process local
+```
+
+### Debugging
+
+In order for your new config to be used, run `ghost restart`.
+
+## Knowledgebase
+
+For more detailed information about **Ghost CLI** visit the official [documentation](https://ghost.org/docs/ghost-cli/)
+
+## Copyright & license
+
+Copyright (c) 2022 Genki - Released under the [MIT license](https://github.com/genkimedia/ghost/blob/main/LICENSE). Ghost and the Ghost Logo are trademarks of Ghost Foundation Ltd. Please see [trademark policy](https://ghost.org/trademark/) for info on acceptable usage.
