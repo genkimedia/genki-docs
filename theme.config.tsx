@@ -98,7 +98,7 @@ const config: DocsThemeConfig = {
     text: 'Edit this page on GitHub →'
   },
   feedback: {
-    content: () => <>Question? Give us feedback →</>,
+    content: (_target="_blank") => <>Question? Give us feedback →</>,
     labels: 'feedback'
   },
   sidebar: {
