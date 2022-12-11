@@ -13,11 +13,11 @@
     <a href="https://twitter.com/mediagenki" target="_blank">Twitter</a>
 </p>
 
-# Genki Docs
+## Overview
 
 Genki uses Nextra to publish Documentation inline.
 
-## Nextra
+#### Nextra
 
 Nextra is simple, powerful and flexible site generation framework with everything you love from Next.js.
 
